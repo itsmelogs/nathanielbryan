@@ -1,0 +1,166 @@
+/*External CSS*/
+body{
+	background-color: maroon;
+	font-family: Century Gothic;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+div.wrapper{
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	border-top: 10px solid gold;
+	border-bottom: 10px solid gold;
+}
+div.header{
+	padding: 20px;
+}
+div.nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+div.nav ul{
+	margin: 0;
+	padding: 10px 0;
+}
+div.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+div.nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 10px;
+}
+div.nav ul li a:hover{
+	background-color: maroon;
+	color: white;
+}
+div.nav ul li a.active{
+	color: #D35400;
+}
+div.banner, div.banner img{
+	width: 100%;
+	height: 250px;
+}
+div.left-side-bar{
+	width: 190px;
+	float: left;
+	border: 1px solid black;
+	min-height: 50px;
+	margin: 10px 10px 10px 0px;
+}
+div.left-side-bar h2{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+}
+div.left-side-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+div.left-side-bar ul li{
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+div.left-side-bar ul li a{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	padding: 5px 0px;
+	font-weight: bold;
+	background-color: maroon;
+	color: white;
+}
+div.content{
+	float: left;
+	width: 550px;
+	min-height: 500px;
+	margin: 10px;
+}
+div.content h1{
+	padding: 0;
+	margin: 0;
+	color: maroon;
+	font-size: 30px;
+	border-bottom: 1px dotted black;
+}
+div.content h2{
+	color: orange;
+}
+div.content p{
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 50px;
+}
+div.right-side-bar{
+	width: 180px;
+	float: right;
+	margin: 10px 0px 10px 10px;
+	border: 1px solid black;
+	min-height: 50px;
+}
+div.right-side-bar ul{
+	margin: 0;
+	padding: 20px;
+}
+div.right-side-bar ul li{
+	list-style-type: none;
+}
+div.right-side-bar ul li img{
+	width: 100%;
+}
+div.footer{
+	clear: both;
+	border-top: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+div.footer p{
+	font-weight: bold;
+}
+div.footer img{
+	margin: 0;
+	padding: 0;
+}
+
+/*Contacts*/
+form{
+	border: 1px solid black;
+	background-color: #13fa0a;
+	color: black;
+	padding: 20px;
+	width: 180px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 1.4);
+}
+form input{
+	margin-top: 5px;
+	padding: 10px;
+	font-family: Arial;
+}
+form button{
+	border-radius: 8px;
+	padding: 8px 10px;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	color: white;
+	width: 150px;
+
+}
+form button: hover{
+	background-color: blue;
+	transition: 0.4s ease-in-out;
+
+}
